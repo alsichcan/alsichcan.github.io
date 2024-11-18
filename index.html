@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jisang Park - Under Construction</title>
+    <script src="https://kit.fontawesome.com/dac5c748f0.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 1.25rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border: 0 solid #e5e7eb;
+            box-sizing: border-box;
+            max-width: 42rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .header-flex {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            margin-bottom: 15px;
+        }
+        .profile-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .header-text {
+            flex-grow: 1;
+        }
+        h1 {
+            font-size: 1.8em;
+            margin: 0;
+        }
+        h2 {
+            font-size: 1.1em;
+            color: #0ea5e9;
+            margin: 5px 0 15px 0;
+        }
+        .icons-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            justify-items: center;
+        }
+        .icons-grid a {
+            text-decoration: none;
+            color: #555;
+            font-size: 1.5em;
+            transition: color 0.3s;
+        }
+        .icons-grid a:hover {
+            color: #0078d4;
+        }
+        p {
+            margin: 10px 0;
+            color: #333;
+            text-align: left;
+        }
+        .text-section {
+            display: flex;
+            flex-direction: column;
+        }
+        .text-section a {
+            color: #f97316;
+            text-decoration: none;
+            transition: font-weight 0.3s;
+        }
+        .text-section a:hover {
+            font-weight: bold;
+        }
+        .construction-box {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            color: #666;
+            background: #f9f9f9;
+            text-align: center;
+        }
+        @media (min-width: 640px) {
+            .sm\:px-10 {
+                padding-left: 2.5rem;
+                padding-right: 2.5rem;
+            }
+            .sm\:rounded-lg {
+                border-radius: .5rem;
+            }
+            .sm\:max-w-2xl {
+                max-width: 42rem;
+            }
+            .sm\:mx-auto {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container sm:px-10 sm:rounded-lg sm:max-w-2xl sm:mx-auto">
+        <div class="header-flex">
+            <img src="profile.png" alt="Profile Image" class="profile-image">
+            <div class="header-text">
+                <h1>Jisang Park</h1>
+                <h2>Research Scientist @ KAIST<br>Robust Intelligence & Robotics Lab</h2>
+            </div>
+            <div class="icons-grid">
+                <a href="mailto:jisang.park@kaist.ac.kr" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/jace-jisang-park/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/alsichcan" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://scholar.google.com/citations?user=YXjaSZoAAAAJ&hl=ko" target="_blank" title="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+            </div>
+        </div>
+        <div class="text-section">
+            <p>Hi 👋</p>
+            <p>I'm a Research Scientist at <a href="https://rirolab.kaist.ac.kr/" target="_blank">KAIST RIRO Lab</a>.</p>
+            <p>My research interest is Human-Robot Interaction via natural language.</p>
+            <p>I completed my B.B.A in Business Administration and B.S. in Computer Science and Engineering at Seoul National University.</p>
+        </div>
+        <div class="construction-box"><strong>JISANGPARK.COM is under construction!</strong></div>
+    </div>
+</body>
+</html>
